@@ -1,0 +1,8 @@
+# eHalls::API - new RESTful MVC API written in PHP
+This is a recent version of the new eHalls API that I've been developing for Imperial College Halls of Residence (alongside my dev for the [web interface](https://hallsf.imperial.ac.uk/eHalls/)). I have uploaded it here purely for my portfolio. If you have any questions, please feel free to contact me at [gavinseegoolam@outlook.com](mailto:gavinseegoolam@outlook.com). This aim is that this API will be the main backend interface for the eHalls platform. It was initially designed to be of singular use for the older, "eWilson", app that I developed can be found on the [iOS app store](https://itunes.apple.com/gb/app/ewilson/id1286921644?mt=8) and on [the Android Play store](https://play.google.com/store/apps/details?id=com.wilson.ewilson&hl=en_GB).
+
+## Design
+A Model-View-Controller (MVC) design has been used in development. In particular, the structure provided by this design suits the aims/overall goals of the API project. Namely, it is to provide an intuitive feel for new users to the API but also to allow new implementations and features to be easily added to the current system. A RESTful architecture is used inline with modern practice. Furthermore, reliance on eHalls is expected to rise - a scalable backend system with easy deployment is vital and this API is a step towards transforming the eHalls system into something reliable.
+
+## Current development
+The system still has a fair bit to go with some things needing rearranging. However, the software architecture is almost complete with multiple features functioning for use with the eHalls app.

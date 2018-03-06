@@ -1,0 +1,3 @@
+RewriteEngine Off
+RewriteEngine On
+RewriteRule ([^/\.]+)/([^/\.]+)/?$ /eHalls/0_api/index.php?controller=$1&action=$2 [NC]
